@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Registration form</title>
+	</head>
+		<body>
+			<h1>My Registration Form</h1>
+			<form action="#" method="post">
+				<table>
+					<tr>
+						<td><label for="first_name">First Name:</label></td>
+						<td><input type="text" id="first_name" name="first_name"></td>
+					</tr>
+					<tr>
+						<td><label for="last_name">Last Name:</label></td>
+						<td><input type="text" id="last_name" name="last_name"></td>
+					</tr>
+					<tr>
+						<td><label for="email">Email:</label></td>
+						<td><input type="text" id="email" name="email"></td>
+					</tr>
+					<tr>
+						<td><label for="password">Password:</label></td>
+						<td><input type="password" id="password" name="password"></td>
+					</tr>
+					<tr>
+						<td><label for="Confrim"> PW Confrim:</label></td>
+						<td><input type="password" id="Confrim" name="Confrim"></td>
+					</tr>
+					<tr>
+						<td><label for="birthday"> Birthday:</label></td>
+						<td><input type="date" id="birthday" name="birthday"></td>
+					</tr>
+				</table>
+
+				<label for="male">Male</label>
+				<input type="radio" id="male" name="gender">
+				<label for="Female">Female</label>
+				<input type="radio" id="Female" name="gender">
+				<label for="other">Other</label>
+				<input type="radio" id="other" name="gender">
+			<p>A short description about yourself</p>
+
+				<textarea name="description"></textarea>
+				<br><br>
+		
+		Favourite Language
+				<label>
+					<select name="Language">
+						<option value="Javascript">Javascript</option>
+						<option value="Php">Php</option>
+					</select>
+				</label>
+				<br><br>
+
+				<label>
+					<input type="submit" value="Submit">
+				</label>
+			</form>	
+
+		</body>
+</html>
